@@ -8,7 +8,7 @@ export const ToDoList = () => {
 
     useEffect(() => {
         getTasks();
-    }, []);
+    }, [getTasks]);
 
     return (
         <>
