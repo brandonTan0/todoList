@@ -1,4 +1,4 @@
-const appReducer =  (state, action) => {
+ =  (state, action) => {
     switch(action.type) {
         case 'COMPLETED_TASK':
             return {
