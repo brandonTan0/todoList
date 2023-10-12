@@ -1,4 +1,4 @@
-export default (state, action) => {
+const appReducer =   (state, action) => {
     switch(action.type) {
         case 'COMPLETED_TASK':
             return {
@@ -26,3 +26,4 @@ export default (state, action) => {
             return state
     }
 }
+export default appReducer;
