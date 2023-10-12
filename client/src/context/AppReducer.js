@@ -1,4 +1,4 @@
-const appReducer =   (state, action) => {
+const appReducer = (state, action) => {
     switch(action.type) {
         case 'GET_TASKS':
             return {
